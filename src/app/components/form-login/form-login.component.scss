@@ -1,0 +1,36 @@
+.login-container {
+    width: 300px; /* Largura do container do formulário */
+    margin: 0 auto; /* Centraliza horizontalmente o container na página */
+    padding: 20px; /* Espaçamento interno para o container */
+    background-color:transparent; /* Cor de fundo do container */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 1px solid black; /* Borda do input */
+
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os grupos de formulário */
+}
+
+label {
+    display: block; /* Faz o label ocupar uma linha inteira */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+    font-weight: bold; /* Deixa o texto do label em negrito */
+    font-size: 14px; /* Tamanho da fonte do label */
+}
+
+input {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 10px; /* Espaçamento interno do input */
+    font-size: 14px; /* Tamanho da fonte no input */
+    border: 1px solid black; /* Borda do input */
+    border-radius: 5px; /* Bordas arredondadas no input */
+    box-sizing: border-box; /* Inclui bordas e padding no cálculo da largura */
+}
+
+input:focus {
+    border-color: #007bff; /* Muda a cor da borda ao focar no input */
+    outline: none; /* Remove a linha de foco padrão */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra ao focar */
+}
