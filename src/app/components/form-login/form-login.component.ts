@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class FormLoginComponent {
 
-  login:string = '';
-  senha:string = '';
+  email:string = '';
+  password:string = '';
   
 }

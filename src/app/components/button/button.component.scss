@@ -4,4 +4,14 @@
     border-radius: 15px;
     width: 260px;
     height: 40px;
+
+    &:active {
+        transform: scale(0.95);  /* Encolhe o botão */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para dar efeito de pressão */
+    }
+
+    &:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
 }
