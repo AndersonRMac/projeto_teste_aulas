@@ -1,6 +1,7 @@
 # ProjetoTesteAulas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+PROJETO SE TRATA DE UMA TELA DE LOGIN FEITA EM COMPONENTES EM QUE O BOTÃO DE LOGIN SÓ SERÁ HABILITADO, QUANDO OS CAMPOS DE EMAIL E SENHA ESTIVEREM PREENCHIDOS
 
 ## Development server
 
